@@ -19,6 +19,6 @@ function addToCart(items) {
   cartItems.push(items);
   Object.assign(cart, newObject);
   console.log(`${items} has been added to your cart.`);
-  return cart;
+  console.log(cart);
 }
 addToCart("poop");
