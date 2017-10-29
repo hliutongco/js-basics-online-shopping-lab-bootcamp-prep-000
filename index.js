@@ -15,10 +15,10 @@ var cart=[];
 function addToCart(items) {
   var num=Math.random()*100;
   var itemPrice=Math.floor(num);
-  var newObject={ [items]:itemPrice };
   cartItems.push(items);
-  Object.assign(cart, newObject);
+  var newObject={ [items]:itemPrice };
+  cart.push(newObject);
   console.log(`${items} has been added to your cart.`);
-  console.log(cart);
+  return cart;
 }
-addToCart("poop");
+
