@@ -12,12 +12,12 @@ var cartItems=[];
 var cart=[];
 
 
-function addToCart(itemName) {
+function addToCart(items) {
   var num=Math.random()*100;
   var itemPrice=Math.floor(num);
-  cartItems.push(itemName);
-  Object.assign(cart, { [itemName]:itemPrice });
-  console.log(`${itemName} has been added to your cart.`);
+  cartItems.push(items);
+  Object.assign(cart, { [items]:itemPrice });
+  console.log(`${items} has been added to your cart.`);
   return cart;
 }
 
