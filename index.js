@@ -31,9 +31,9 @@ if(cart<=[]) {
   for(var i=0;i<cart.length;i++) {
     array.push(` ${cartItems[i]} at $${cartPrice[i]}`);
   }
-  if(cart.length===1) {
+  
     console.log(`In your cart, you have ${cartItems[i]} at $${cartPrice[i]}.`);
-  }
+
 /*  else if(cart.length===2) {
     console.log(`In your cart, you have${array[0]} and${array[1]}.`);
   }
