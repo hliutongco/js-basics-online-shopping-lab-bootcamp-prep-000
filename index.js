@@ -21,4 +21,3 @@ function addToCart(items) {
   console.log(`${items} has been added to your cart.`);
   return cart;
 }
-
