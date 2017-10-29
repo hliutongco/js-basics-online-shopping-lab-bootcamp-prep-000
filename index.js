@@ -31,13 +31,13 @@ if(cart<=[]) {
   for(var i=0;i<cart.length;i++) {
     array.push(` ${cartItems[i]} at $${cartPrice[i]}`);
   }
-/*  if(cart.length===1) {
-    console.log(`In your cart, you have${array}.`);
+  if(cart.length===1) {
+    console.log(`In your cart, you have ${cartItems[i]} at $${cartPrice[i]}.`);
   }
-  else if(cart.length===2) {
+/*  else if(cart.length===2) {
     console.log(`In your cart, you have${array[0]} and${array[1]}.`);
   }
-  else { */
+  else {
     console.log(`In your cart, you have${array.slice(0,-1)}, and${array.slice(-1)}.`);
-//  }
+  } */
 }
