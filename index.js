@@ -22,6 +22,8 @@ function addToCart(items) {
   console.log(`${items} has been added to your cart.`);
   return cart;
 }
+addToCart("cart");
+addToCart("banana");
 
 /*function viewCart() {
 var array=[];
@@ -48,3 +50,4 @@ if(cart<=[]) {
     }
     return totalPrice;
   }
+total();
