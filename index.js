@@ -8,6 +8,8 @@ function setCart(c) {
   return cart;
 }
 
+var cartItems=[];
+var cartPrice=[];
 var cart=[];
 
 function addToCart(items) {
@@ -40,7 +42,8 @@ if(cart<=[]) {
   function total() {
     var totalPrice=0;
     for(var i=0;i<cart.length;i++) {
-      totalPrice+=cart[i];
+      totalPrice+=cart[i][cartItems[i]];
     }
     return totalPrice;
   }
+  total();
