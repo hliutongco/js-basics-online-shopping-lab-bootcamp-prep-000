@@ -50,3 +50,16 @@ if(cart<=[]) {
   }
   return totalPrice;
 }
+
+function removeFromCart(itemName) {
+var counter=0;
+  for(var i=0;i<cart.length;i++) {
+    if(itemName===cart[i]) {
+      delete cartPrice[cart[i]];
+      cart.splice(i,1);
+      return cart;
+    }
+  }
+  return cart;
+}
+
