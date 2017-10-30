@@ -40,7 +40,7 @@ if(cart<=[]) {
   function total() {
     var totalPrice=0;
     for(var i=0;i<cart.length;i++) {
-      totalPrice+=cartPrice[i];
+      totalPrice+=cart[i];
     }
     return totalPrice;
   }
