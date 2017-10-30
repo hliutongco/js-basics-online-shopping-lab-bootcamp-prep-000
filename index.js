@@ -42,6 +42,6 @@ if(cart<=[]) {
   } */
 
   function total() {
-    var totalCost=cartPrice[17]+cartPrice[18];
+    var totalCost=cartPrice[18]+cartPrice[19];
     return totalCost;
   }
