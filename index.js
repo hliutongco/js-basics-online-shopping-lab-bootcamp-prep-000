@@ -52,7 +52,6 @@ if(cart<=[]) {
 }
 
 function removeFromCart(itemName) {
-var counter=0;
   for(var i=0;i<cart.length;i++) {
     if(itemName===cart[i]) {
       delete cartPrice[cart[i]];
