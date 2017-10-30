@@ -46,5 +46,5 @@ if(cart<=[]) {
     for(var i=0;i<cartPrice.length;i++) {
       totalPrice+=cartPrice[i];
     }
-    console.log(totalPrice);
+    return totalPrice;
   }
