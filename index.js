@@ -62,4 +62,3 @@ var counter=0;
   }
   return cart;
 }
-
