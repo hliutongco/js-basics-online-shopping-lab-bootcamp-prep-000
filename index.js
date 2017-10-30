@@ -52,10 +52,12 @@ if(cart<=[]) {
 }
 
 function removeFromCart(itemName) {
+console.log(cart);
   for(var i=0;i<cart.length;i++) {
     if(itemName===cart[i]) {
       delete cartPrice[cart[i]];
       cart.splice(i,1);
+      console.log(cart);
       return cart;
     }
   }
