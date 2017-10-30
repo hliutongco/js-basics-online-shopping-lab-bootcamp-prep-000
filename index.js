@@ -24,6 +24,8 @@ function addToCart(items) {
 }
 addToCart("cart");
 addToCart("banana");
+addToCart("thyme");
+addToCart("potato");
 
 /*function viewCart() {
 var array=[];
