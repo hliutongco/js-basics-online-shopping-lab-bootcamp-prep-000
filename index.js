@@ -54,7 +54,7 @@ if(cart<=[]) {
 function removeFromCart(itemName) {
   for(var i=0;i<cart.length;i++) {
     if(itemName===cartItems[i]) {
-      cart.splice(i);
+      cart.splice(i,2);
       return cart;
     }
   }
