@@ -42,6 +42,7 @@ if(cart<=[]) {
   else {
     console.log(`In your cart, you have${array.slice(0,-1)}, and${array.slice(-1)}.`);
   }
+}
 
   function total() {
   var totalPrice=0;
