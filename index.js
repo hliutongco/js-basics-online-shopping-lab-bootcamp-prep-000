@@ -20,7 +20,7 @@ function addToCart(items) {
   var newObject={ [items]:itemPrice };
   cart.push(newObject);
   console.log(`${items} has been added to your cart.`);
-  console.log(cart);
+  return cart;
 }
 
 /*function viewCart() {
@@ -48,4 +48,4 @@ if(cart<=[]) {
     }
     console.log(totalPrice);
   }
-total();
+
