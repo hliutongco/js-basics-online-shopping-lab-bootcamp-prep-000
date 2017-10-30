@@ -5,6 +5,8 @@ function getCart() {
 
 function setCart(c) {
   cart = c;
+  cartItems = c;
+  cartPrice = c;
   return cart;
 }
 
