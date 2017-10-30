@@ -43,8 +43,8 @@ if(cart<=[]) {
 
   function total() {
     var totalCost=0;
-    for(var i=0;i<cartPrice.length;i++) {
-      totalCost+=cartPrice[i];
+    for(var i=0;i<cart.length;i++) {
+      totalCost+=cart[i];
     }
-    return totalCost;
+    return cartPrice;
   }
