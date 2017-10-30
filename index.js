@@ -53,7 +53,7 @@ if(cart<=[]) {
 
 function removeFromCart(itemName) {
   for(var i=0;i<cart.length;i++) {
-    if(itemName===cartItems[i]) {
+    if(cart[i].hasOwnProperty(cartItems[i])) {
       cart.splice(i,1);
       return cart;
     }
