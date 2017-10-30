@@ -59,5 +59,5 @@ function removeFromCart(itemName) {
       return cart;
     }
   }
-  return cart;
+  return "That item is not in your cart.";
 }
