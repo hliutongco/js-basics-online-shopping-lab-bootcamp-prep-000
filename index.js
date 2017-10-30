@@ -41,7 +41,7 @@ if(cart<=[]) {
     console.log(`In your cart, you have${array.slice(0,-1)}, and${array.slice(-1)}.`);
   } */
 
-  function total() {
+  function totalCost() {
     var totalPrice=0;
     for(var i=0;i<cart.length;i++) {
       totalPrice+=cart[i][cartItems[i]];
