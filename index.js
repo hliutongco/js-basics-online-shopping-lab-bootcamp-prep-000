@@ -48,4 +48,4 @@ if(cart<=[]) {
     }
     return totalPrice;
   }
-  total();
+  
