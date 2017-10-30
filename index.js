@@ -48,4 +48,3 @@ if(cart<=[]) {
     }
     console.log(totalPrice);
   }
-
