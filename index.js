@@ -46,5 +46,5 @@ if(cart<=[]) {
     for(var i=0;i<cart.length;i++) {
       totalPrice+=cartPrice[i];
     }
-    return `${totalPrice}`;
+    return totalPrice;
   }
